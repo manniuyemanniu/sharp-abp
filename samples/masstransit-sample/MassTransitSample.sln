@@ -5,11 +5,23 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitSample.Common", "src\MassTransitSample.Common\MassTransitSample.Common.csproj", "{753DCDA3-9649-49EA-895C-091192F49F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Producer", "src\MassTransitSample.Producer\MassTransitSample.Producer.csproj", "{85A75FEB-492F-4D73-B9A4-46BD8EFB8810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitSample.Producer", "src\MassTransitSample.Producer\MassTransitSample.Producer.csproj", "{85A75FEB-492F-4D73-B9A4-46BD8EFB8810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Consumer", "src\MassTransitSample.Consumer\MassTransitSample.Consumer.csproj", "{E08B930B-7238-4C7C-A061-C8B4D7D3FB0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitSample.Consumer", "src\MassTransitSample.Consumer\MassTransitSample.Consumer.csproj", "{E08B930B-7238-4C7C-A061-C8B4D7D3FB0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAbp.Abp.MassTransit", "..\..\framework\src\SharpAbp.Abp.MassTransit\SharpAbp.Abp.MassTransit.csproj", "{87E0C265-8781-4413-847B-84407197DC32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAbp.Abp.MassTransit.Kafka", "..\..\framework\src\SharpAbp.Abp.MassTransit.Kafka\SharpAbp.Abp.MassTransit.Kafka.csproj", "{B453B85B-47DC-4868-BFFB-96ACBCEC727C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAbp.Abp.MassTransit.PostgreSql", "..\..\framework\src\SharpAbp.Abp.MassTransit.PostgreSql\SharpAbp.Abp.MassTransit.PostgreSql.csproj", "{380D7358-C5CD-4E46-A3D1-6A397BBB620D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAbp.Abp.MassTransit.SqlServer", "..\..\framework\src\SharpAbp.Abp.MassTransit.SqlServer\SharpAbp.Abp.MassTransit.SqlServer.csproj", "{FDF935A4-00BE-44AD-8669-E0D28E9F7038}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAbp.Abp.MassTransit.RabbitMQ", "..\..\framework\src\SharpAbp.Abp.MassTransit.RabbitMQ\SharpAbp.Abp.MassTransit.RabbitMQ.csproj", "{F52C70D1-A9C7-4097-900B-DFA0DDD47C5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpAbp.Abp.MassTransit.ActiveMQ", "..\..\framework\src\SharpAbp.Abp.MassTransit.ActiveMQ\SharpAbp.Abp.MassTransit.ActiveMQ.csproj", "{FBFA1B58-9E68-414E-B826-29771F9460F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +41,30 @@ Global
 		{E08B930B-7238-4C7C-A061-C8B4D7D3FB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E08B930B-7238-4C7C-A061-C8B4D7D3FB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E08B930B-7238-4C7C-A061-C8B4D7D3FB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E0C265-8781-4413-847B-84407197DC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E0C265-8781-4413-847B-84407197DC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E0C265-8781-4413-847B-84407197DC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E0C265-8781-4413-847B-84407197DC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B453B85B-47DC-4868-BFFB-96ACBCEC727C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B453B85B-47DC-4868-BFFB-96ACBCEC727C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B453B85B-47DC-4868-BFFB-96ACBCEC727C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B453B85B-47DC-4868-BFFB-96ACBCEC727C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380D7358-C5CD-4E46-A3D1-6A397BBB620D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380D7358-C5CD-4E46-A3D1-6A397BBB620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380D7358-C5CD-4E46-A3D1-6A397BBB620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380D7358-C5CD-4E46-A3D1-6A397BBB620D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF935A4-00BE-44AD-8669-E0D28E9F7038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF935A4-00BE-44AD-8669-E0D28E9F7038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF935A4-00BE-44AD-8669-E0D28E9F7038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF935A4-00BE-44AD-8669-E0D28E9F7038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52C70D1-A9C7-4097-900B-DFA0DDD47C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52C70D1-A9C7-4097-900B-DFA0DDD47C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52C70D1-A9C7-4097-900B-DFA0DDD47C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52C70D1-A9C7-4097-900B-DFA0DDD47C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFA1B58-9E68-414E-B826-29771F9460F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFA1B58-9E68-414E-B826-29771F9460F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFA1B58-9E68-414E-B826-29771F9460F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFA1B58-9E68-414E-B826-29771F9460F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +73,12 @@ Global
 		{753DCDA3-9649-49EA-895C-091192F49F33} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
 		{85A75FEB-492F-4D73-B9A4-46BD8EFB8810} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
 		{E08B930B-7238-4C7C-A061-C8B4D7D3FB0F} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
+		{87E0C265-8781-4413-847B-84407197DC32} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
+		{B453B85B-47DC-4868-BFFB-96ACBCEC727C} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
+		{380D7358-C5CD-4E46-A3D1-6A397BBB620D} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
+		{FDF935A4-00BE-44AD-8669-E0D28E9F7038} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
+		{F52C70D1-A9C7-4097-900B-DFA0DDD47C5E} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
+		{FBFA1B58-9E68-414E-B826-29771F9460F8} = {D8D252B7-9D99-4F8B-83E3-78CAF45AAD1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5704965-8EF6-464B-90EA-A332E6811824}
